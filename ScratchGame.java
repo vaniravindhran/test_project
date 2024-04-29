@@ -8,19 +8,19 @@ public class ScratchGame {
         int rows = 3;
         int columns = 3;
         Map<String, Double> symbolProbabilities = new HashMap<>();
-        symbolProbabilities.put("A", 0.1);
-        symbolProbabilities.put("B", 0.2);
-        symbolProbabilities.put("C", 0.3);
-        symbolProbabilities.put("D", 0.4);
-        symbolProbabilities.put("E", 0.0); // Just for demonstration, not included in probabilities
-        symbolProbabilities.put("F", 0.0); // Just for demonstration, not included in probabilities
+        symbolProbabilities.put("A", 50);
+        symbolProbabilities.put("B", 25);
+        symbolProbabilities.put("C", 10);
+        symbolProbabilities.put("D", 5);
+        symbolProbabilities.put("E", 3); 
+        symbolProbabilities.put("F", 1.5); 
 
         Map<String, Double> bonusSymbolProbabilities = new HashMap<>();
-        bonusSymbolProbabilities.put("10x", 0.1);
-        bonusSymbolProbabilities.put("5x", 0.2);
-        bonusSymbolProbabilities.put("+1000", 0.3);
-        bonusSymbolProbabilities.put("+500", 0.4);
-        bonusSymbolProbabilities.put("MISS", 0.0); // Just for demonstration, not included in probabilities
+        bonusSymbolProbabilities.put("10x", 10);
+        bonusSymbolProbabilities.put("5x", 5);
+        bonusSymbolProbabilities.put("+1000", 1000);
+        bonusSymbolProbabilities.put("+500", 100);
+        bonusSymbolProbabilities.put("MISS", 0); 
 
         // User's betting amount
         double betAmount = 10.0;
